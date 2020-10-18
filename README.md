@@ -26,3 +26,15 @@ If each service starts successfully, you should be able to access following:
   password: bfl
   database: _system
   ```
+
+To stop the API and db run the following command:
+
+```sh
+docker-compose down
+```
+
+To only start a particular service (e.g. the database), run the following command:
+
+```sh
+docker-compose up -d db
+```
