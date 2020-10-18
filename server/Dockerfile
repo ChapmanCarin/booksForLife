@@ -19,4 +19,4 @@ RUN npm install
 
 ENV NODE_ENV=production
 
-CMD ["node", "index.js", "--max-old-space-size=450"]
+CMD ["node", "lib/index.js", "--max-old-space-size=450"]
